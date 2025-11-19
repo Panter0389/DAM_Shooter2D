@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: b97cf1800cfe5d54d8ce763beb3a37ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 318202218707698020
+    second: sprScoreMultiplier_0
+  - first:
+      213: 1841287811695493090
+    second: sprScoreMultiplier_1
+  - first:
+      213: -4233934082954357310
+    second: sprScoreMultiplier_2
+  - first:
+      213: -1503189622059925479
+    second: sprScoreMultiplier_3
+  - first:
+      213: 4743198202168329671
+    second: sprScoreMultiplier_4
+  - first:
+      213: 1456475564662972851
+    second: sprScoreMultiplier_5
+  - first:
+      213: 6151214324577841078
+    second: sprScoreMultiplier_6
+  - first:
+      213: 2211479960321924737
+    second: sprScoreMultiplier_7
+  - first:
+      213: 1773519740101618057
+    second: sprScoreMultiplier_8
+  - first:
+      213: -8799195169610620900
+    second: sprScoreMultiplier_9
+  - first:
+      213: -6125990736525922696
+    second: sprScoreMultiplier_10
+  - first:
+      213: 6774128022089235635
+    second: sprScoreMultiplier_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprScoreMultiplier_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46140d46b3b7a6400800000000000000
+      internalID: 318202218707698020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efbd5952819d8910800000000000000
+      internalID: 1841287811695493090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c51617426b0e35c0800000000000000
+      internalID: -4233934082954357310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9108013c009932be0800000000000000
+      internalID: -1503189622059925479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5c38362a933d140800000000000000
+      internalID: 4743198202168329671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1e5cf2fc0763410800000000000000
+      internalID: 1456475564662972851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bfa1c176d08d5550800000000000000
+      internalID: 6151214324577841078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e12e69e41c0be10800000000000000
+      internalID: 2211479960321924737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98966ee9ececc9810800000000000000
+      internalID: 1773519740101618057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10a6060d9af2e580800000000000000
+      internalID: -8799195169610620900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ee90cc1eb1cfaa0800000000000000
+      internalID: -6125990736525922696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprScoreMultiplier_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcf5a39b89820e50800000000000000
+      internalID: 6774128022089235635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprScoreMultiplier_0: 318202218707698020
+      sprScoreMultiplier_1: 1841287811695493090
+      sprScoreMultiplier_10: -6125990736525922696
+      sprScoreMultiplier_11: 6774128022089235635
+      sprScoreMultiplier_2: -4233934082954357310
+      sprScoreMultiplier_3: -1503189622059925479
+      sprScoreMultiplier_4: 4743198202168329671
+      sprScoreMultiplier_5: 1456475564662972851
+      sprScoreMultiplier_6: 6151214324577841078
+      sprScoreMultiplier_7: 2211479960321924737
+      sprScoreMultiplier_8: 1773519740101618057
+      sprScoreMultiplier_9: -8799195169610620900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
