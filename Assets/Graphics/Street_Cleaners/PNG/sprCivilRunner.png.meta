@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ae597ee2e99caf946b449a3e7067b923
+guid: 2134934b33f1d824ebe255937e91580b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6502052927800226167
-    second: sprProspector_0
+      213: -1412196383504448398
+    second: sprCivilRunner_0
+  - first:
+      213: -7683941079249242661
+    second: sprCivilRunner_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprProspector_0
+      name: sprCivilRunner_0
       rect:
         serializedVersion: 2
-        x: 16
+        x: 5
         y: 0
-        width: 29
-        height: 56
+        width: 28
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98ecdafbf4114c5a0800000000000000
-      internalID: -6502052927800226167
+      spriteID: 27440201fded66ce0800000000000000
+      internalID: -1412196383504448398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprCivilRunner_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd53158bc482d5590800000000000000
+      internalID: -7683941079249242661
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sprProspector_0: -6502052927800226167
+      sprCivilRunner_0: -1412196383504448398
+      sprCivilRunner_1: -7683941079249242661
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

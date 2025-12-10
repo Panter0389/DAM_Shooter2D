@@ -4,17 +4,25 @@ using UnityEngine;
 public class EnemyBase : MonoBehaviour
 {
     public int TotalHP = 1;
+    public int scoreOnKill = 5;
+    public int destroyTime = 0;
+    public AudioClip deathSfx;
 
     [Header("Components")]
     public GameObject shootFX;
+    public AudioSource audioSource;
 
     protected int currentHP;
     EnemySpawner spawner;
+    protected bool isDead = false;
 
     public virtual void Awake()
     {
         currentHP = TotalHP;
-        shootFX.SetActive(false);
+        if (shootFX != null)
+        {
+            shootFX.SetActive(false);
+        }
     }
 
     public void Initialize(EnemySpawner _spawner)
@@ -42,6 +50,9 @@ public class EnemyBase : MonoBehaviour
 
     public virtual void Hit()
     {
+        if (isDead)
+            return;
+
         Debug.Log("NEMICO COLPITO");
         currentHP--;
         if(currentHP <= 0)
@@ -51,12 +62,35 @@ public class EnemyBase : MonoBehaviour
         }
     }
 
+    protected virtual void RemoveEnemy()
+    {
+        spawner.RemoveEnemy(this);
+        Invoke("DestroyMe", destroyTime);
+    }
+    protected virtual void DestroyMe()
+    {
+        Destroy(gameObject);
+    }
     protected virtual void Death()
     {
-        spawner.EnemyDie(this);
+        ScoreManager scoreManager = FindFirstObjectByType<ScoreManager>();
+        if (scoreManager != null)
+        {
+            scoreManager.OnEnemyKill(scoreOnKill);
+        }
+        else
+        {
+            Debug.Log("ScoreManager not found");
+        }
+        isDead = true;
 
-        Debug.Log("NEMICO MORTO");
-        Destroy(gameObject);
+        AudioManager audioManager = FindFirstObjectByType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.PlaySFX(deathSfx);
+        }
+
+        RemoveEnemy();
     }
 
 

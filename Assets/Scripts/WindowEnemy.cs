@@ -7,11 +7,14 @@ public class WindowEnemy : EnemyBase
 
     private void Update()
     {
-        shootTimer += Time.deltaTime;
-        if(shootTimer > shootBreak)
+        if (!isDead)
         {
-            shootTimer = 0;
-            Shoot();
+            shootTimer += Time.deltaTime;
+            if (shootTimer > shootBreak)
+            {
+                shootTimer = 0;
+                Shoot();
+            }
         }
     }
 }

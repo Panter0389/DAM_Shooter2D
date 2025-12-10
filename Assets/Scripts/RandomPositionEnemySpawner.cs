@@ -43,7 +43,7 @@ public class RandomPositionEnemySpawner : EnemySpawner
                 float xSpawnPosition = Random.Range(xSpawnRange.x, xSpawnRange.y);
                 float ySpawnPosition = Random.Range(ySpawnRange.x, ySpawnRange.y);
                 Vector3 spawnPosition = new Vector3(xSpawnPosition, ySpawnPosition, -1);
-                SpawnEnemy(spawnPosition);
+                SpawnEnemy(spawnPosition, enemyPrefab);
                 spawnTimer = 0;
             }
         }

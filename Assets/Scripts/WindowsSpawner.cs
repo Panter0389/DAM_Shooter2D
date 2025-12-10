@@ -3,16 +3,22 @@ using UnityEngine;
 
 public class WindowsSpawner : EnemySpawner
 {
+
+    
+
     [Header("Spawn Settings")]
+    public EnemyBase civilPrefab;
     public float spawnIntervalSeconds = 2;
     public int maxEnemies = 10;
     public List<Vector3> spawnPositions = new List<Vector3>();
     List<int> occupiedSpawnPositionsIndex = new List<int>();
+    public int civilSpawnRate = 3;
 
     float spawnTimer = 0;
+    int civilSpawnRateCounter = 0;
 
 
-    public override void EnemyDie(EnemyBase enemy)
+    public override void RemoveEnemy(EnemyBase enemy)
     {
         if (spawnedEnemies.Contains(enemy))
         {
@@ -54,11 +60,21 @@ public class WindowsSpawner : EnemySpawner
                 }
                 while (occupiedSpawnPositionsIndex.Contains(randomIndex));
 
+                civilSpawnRateCounter++;
 
-                SpawnEnemy(spawnPositions[randomIndex]);
+                if (civilSpawnRateCounter >= civilSpawnRate) 
+                {
+                    SpawnEnemy(spawnPositions[randomIndex], civilPrefab);
+                    civilSpawnRateCounter = 0;
+                }
+                else
+                {
+                    SpawnEnemy(spawnPositions[randomIndex], enemyPrefab);
+                }
+                    
                 spawnTimer = 0;
-
                 occupiedSpawnPositionsIndex.Add(randomIndex);
+
             }
         }
     }

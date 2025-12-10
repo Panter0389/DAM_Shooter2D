@@ -7,10 +7,16 @@ public class PlayerManager : MonoBehaviour
     public int maxHp = 3;
     int currentHp;
 
+    public Texture2D cursorTexture;
+    public CursorMode cursorMode = CursorMode.Auto;
+    public Vector2 hotSpot = Vector2.zero;
+
     private void Awake()
     {
-        currentHp = maxHp;
+        Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
 
+        currentHp = maxHp;
+        playerUI.UpdateHp(currentHp);
         //playerUI = FindFirstObjectByType<PlayerUI>();
     }
 

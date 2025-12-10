@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
     public EnemyBase enemyPrefab;
     protected List<EnemyBase> spawnedEnemies = new List<EnemyBase>();
 
-    public virtual void EnemyDie(EnemyBase enemy)
+    public virtual void RemoveEnemy(EnemyBase enemy)
     {
         if (spawnedEnemies.Contains(enemy))
         {
@@ -15,9 +15,9 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    public void SpawnEnemy(Vector3 spawnPosition)
+    public void SpawnEnemy(Vector3 spawnPosition ,EnemyBase prefabToSpawn)
     {
-        EnemyBase newEnemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity, transform);
+        EnemyBase newEnemy = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity, transform);
         newEnemy.Initialize(this);
         spawnedEnemies.Add(newEnemy);
     }
