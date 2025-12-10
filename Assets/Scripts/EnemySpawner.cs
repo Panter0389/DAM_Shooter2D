@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
     public EnemyBase enemyPrefab;
     protected List<EnemyBase> spawnedEnemies = new List<EnemyBase>();
 
-    public void EnemyDie(EnemyBase enemy)
+    public virtual void EnemyDie(EnemyBase enemy)
     {
         if (spawnedEnemies.Contains(enemy))
         {

@@ -5,12 +5,16 @@ public class EnemyBase : MonoBehaviour
 {
     public int TotalHP = 1;
 
+    [Header("Components")]
+    public GameObject shootFX;
+
     protected int currentHP;
     EnemySpawner spawner;
 
-    public void Awake()
+    public virtual void Awake()
     {
         currentHP = TotalHP;
+        shootFX.SetActive(false);
     }
 
     public void Initialize(EnemySpawner _spawner)
@@ -21,6 +25,19 @@ public class EnemyBase : MonoBehaviour
     protected virtual void Move()
     {
         
+    }
+
+    protected virtual void Shoot()
+    {
+        shootFX.SetActive(true);
+        PlayerManager playerManager = FindFirstObjectByType<PlayerManager>();
+        playerManager.Hit();
+        Invoke("HideFx", 0.12f);
+    }
+
+    void HideFx()
+    {
+        shootFX.SetActive(false);
     }
 
     public virtual void Hit()
